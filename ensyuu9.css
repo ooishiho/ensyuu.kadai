@@ -77,9 +77,21 @@ footer{
   header{
     width:100%;
   }
- main{
-   width:100%;
- }
+
+  main{
+    display: block ;
+    width:100%;
+  }
+  
+ .step-box{
+    width:90%; 
+    margin-bottom:20px;
+    margin-left:5%;
+  }
+
+.text{
+  width:100%;
+}
  footer{
    width:100%;
  }
@@ -87,13 +99,27 @@ footer{
 
 @media screen and (max-width:425px){
  header{
-    width:100%;
+    height:50px;
   }
+  
  main{
+   display:block;
    width:100%;
  }
+ 
+ .step-box{
+   width:90%;
+   margin-bottom:20px;
+   margin-left:5%;
+ }
+ 
+ .text{
+   width: 100%;
+  
+ }
+ 
  footer{
-   width:100%;
+   height:50px;
  }
 
 }
